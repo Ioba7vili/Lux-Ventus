@@ -3,7 +3,224 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1357px;
+    margin: 0 auto;
+    padding: 45px;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.navigation{
+    display: flex;
+    gap: 60px;
+}
+.nav-link:hover{
+    color: #4CE0D7;
+}
+.header-flex h1{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #262626;
+}
+.header-flex h1 span{
+    background: #4CE0D7;
+}
+.nav-link{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #262626;
+    text-decoration: none;
+}
+.button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+    text-decoration: none;
+    background: #4CE0D7;
+    border-radius: 40px;
+    padding: 2px 25px;
+    text-align: center;
+}
+.navigation img{
+    color: #262626;
+    background: #4CE0D7;
+    border-radius: 60px;
+    padding: 4px 4px;
+    text-align: center;
+}
+.first-cover img{
+    border-radius: 20px;
+}
+.cover{
+    margin-top: -306px;
+    margin-left: 62px;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.text-content p1{
+font-family: 'Poppins' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0.23em;
+color: #FFFFFF;
+}
+.text-content h{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 69px;
+color: #FFFFFF;
+}
+.text-content h span{
+    color: #4CE0D7;
+    color: #8BA9F4;
+}
+.text-content p2{
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.name{
+    padding: 150px;
+    padding-left: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #262626;
+
+}
+.card{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.card-content{
+    background: #fdfafa;
+    border-radius: 20px;
+}
+
+
+
+.button1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+    text-decoration: none;
+    background: #4CE0D7;
+    border-radius: 40px;
+    padding: 2px 18px;
+    text-align: center;
+}
+.second-cover a{
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #262626;
+    border-radius: 40px;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+}
+.b-c{
+    margin-top: -343px;
+    margin-left: 28px;
+}
+.new-second-section{
+    margin-top: 255px;
+}
+.text-content2{
+    display: flex;
+    text-align: center;
+    margin: -35px;
+    margin-left: -45px;
+    justify-content: space-around;
+}
+.text-content2 p{
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #BCBCBC;
+}
+.text-content2 p1{
+font-family: 'Poppins'sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.24em;
+color: #F25E5E;
+}
+.new-second-section3 h1{
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    color: #262626;
+
+}
+.new-second-section3 p{
+    font-family: 'Poppins'sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+}
+.read-more p1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    color: #4CE0D7;
+    padding-left: 25px;
+}
+.read-more img{
+    width: 25px;
+    margin: -3px;
+}
+.new-second-section3{
+    padding: 30px;
+    margin-top: -35px;
+}
 .trending{
     position: absolute;
     width: 370px;
